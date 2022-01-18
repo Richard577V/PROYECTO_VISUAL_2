@@ -1,4 +1,5 @@
 ﻿using Modelo;
+using ModeloBD;
 using System;
 
 namespace ConsoleApp
@@ -8,6 +9,8 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Estudiante Pedro = new Estudiante() { };
+
+            Repositorio repos;
         }
     }
 }
