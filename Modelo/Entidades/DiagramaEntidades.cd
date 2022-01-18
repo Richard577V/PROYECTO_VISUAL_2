@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Modelo.Entidades.Estudiante">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEAAAAgAAAAIAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\Estudiante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modelo.Entidades.NotaGrado">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\NotaGrado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modelo.Entidades.NotaPrueba">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\NotaPrueba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
