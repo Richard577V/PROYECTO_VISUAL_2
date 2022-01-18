@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    class NotaGrado
+    public class NotaGrado
     {
     }
 }
