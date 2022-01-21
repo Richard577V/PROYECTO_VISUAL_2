@@ -13,6 +13,9 @@ namespace Modelo
         public string Nombre { get; set; }
         public string email { get; set; }
 
+        // Relación con NotaPrueba
+        public List<NotaPrueba> NotaPruebas { get; set; }
+
     }
 }
 

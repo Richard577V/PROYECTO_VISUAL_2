@@ -22,5 +22,14 @@ namespace ModeloBD
              opciones.UseSqlServer("Server=DESKTOP-EF56O4A; initial catalog=IGU; trusted_connection=true;");
 
         }
+        /*configuracion del modelo 
+        protected override void OnModelCreating(ModelBuilder model)
+        {
+            model.Entity<NotaPrueba>()
+                 .HasOne(NotaPrueba => NotaPrueba.Estudiantes)
+                 .WithMany();
+
+        }*/
+
     }
 }
