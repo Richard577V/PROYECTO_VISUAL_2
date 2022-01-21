@@ -8,12 +8,19 @@ using System.Threading.Tasks;
 
 namespace ModeloBD
 {
-    public class Repositorio: DbContext 
+    public class Repositorio : DbContext
     {
         // Configuracion de las entidades
         public DbSet<Estudiante> Estudiantes { get; set; }
         public DbSet<NotaGrado> NotaGrados { get; set; }
         public DbSet<NotaPrueba> NotaPruebas { get; set; }
         public DbSet<Prueba> Pruebas { get; set; }
+        //configuracion de conexion 
+        override protected void OnConfiguring(DbContextOptionsBuilder opciones)
+        {
+             //conexion con sql server
+             opciones.UseSqlServer("Server=DESKTOP-EF56O4A; initial catalog=IGU; trusted_connection=true;");
+
+        }
     }
 }

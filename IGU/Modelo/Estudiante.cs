@@ -8,5 +8,11 @@ namespace Modelo
 {
     public class Estudiante
     {
+        // Atributos
+        public int estudianteid { get; set; }
+        public string Nombre { get; set; }
+        public string email { get; set; }
+
     }
 }
+
