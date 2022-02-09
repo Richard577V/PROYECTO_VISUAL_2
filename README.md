@@ -1,2 +1,2 @@
 # PROYECTO_VISUAL_2
-PROCESO DE INGRESO A LA UNIVERSIDAD (IGU)
+Sistema  De calificacion de proveedores (SCP)
