@@ -25,10 +25,10 @@ namespace ConsoleApp
             dbtipo = ConfigurationManager.AppSettings[DBTipo];
             if (dbtipo == null)
             {
-                //dbtipo = "SqlServer";
-                //conn = "Server = DESKTOP-EF56O4A; Initial Catalog = SGA; trusted_connection = true;";
-                dbtipo = "Postgres";
-                conn = "Host=localhost; Database=SCP; Username=postgres; Password=357216;";
+                dbtipo = "SqlServer";
+                conn = "Server = DESKTOP-EF56O4A; Initial Catalog = SGA; trusted_connection = true;";
+                //dbtipo = "Postgres";
+                //conn = "Host=localhost; Database=SCP; Username=postgres; Password=12345;";
                 //dbtipo = "MySql";
                 //conn = "server=localhost; user=root; password=mc1723950968; database=SCP;";
             }
